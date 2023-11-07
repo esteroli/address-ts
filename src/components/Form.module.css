@@ -1,0 +1,41 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.599);
+    border-radius: 15px;
+    height: 360px;
+    width: 420px;
+}
+
+.form_control button {
+    background-color: rgb(223, 206, 246);
+    border: 2px solid rgb(88, 70, 138);
+    border-radius: 20px;
+    font-size: 0.7em;
+    width: 75px;
+    margin-top: 10px;
+}
+
+.form_control label {
+    font-size: 1.2em;
+}
+
+.form_control input {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid rgb(107, 70, 138);
+}
+
+.details {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.details p {
+    margin: 7px;
+}
